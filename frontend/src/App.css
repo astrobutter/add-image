@@ -1,0 +1,19 @@
+.upload-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-container{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.image-container img{
+  height: 300px;
+  object-fit: cover;
+  margin:10px;
+}
